@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+}
+.logo{
+    background-color: lightblue;
+    width: 100%;
+    height: 20vh;
+   
+}
+.flex{
+    display: flex;
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.cursor{
+    cursor: pointer;
+}
+.forbes{
+    width: 15%;
+    height: 20vh;
+    background-color: lightblue;
+    margin-left: 75px;
+}
+.home{
+    width: 50px;
+    height: 5vh;
+    background-color: lightblue;
+    margin-top: 15vh;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.home:hover{
+    background-color: orange;
+}
+.programs{
+    width: 75px;
+    background-color: lightblue;
+    height: 5vh;
+    margin-top: 15vh;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.programs:hover{
+    background-color: orange;
+}
+.newsevent{
+    width: 115px;
+    height: 5vh;
+    background-color: lightblue;
+    margin-top: 15vh;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.newsevent:hover{
+    background-color: orange;
+}
+.result{
+    width: 50px;
+    background-color: lightblue;
+    height: 5vh;
+    margin-top: 15vh;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.result:hover{
+    background-color: orange;
+}
+.download{
+    width: 85px;
+    background-color: lightblue;
+    height: 5vh;
+    margin-top: 15vh;
+    margin-left: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+.download:hover{
+    background-color: orange;
+}
+.gallery{
+    width: 55px;
+    background-color: lightblue;
+    height: 5vh;
+    margin-top: 15vh;
+    margin-left: 10px;
+    justify-content: center;
+    cursor: pointer;
+}
+.gallery:hover{
+    background-color: orange;
+}
+.collab{
+    width: 130px;
+    background-color: lightblue;
+    height: 5vh;
+    margin-top: 15vh;
+    margin-left: 10px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.collab:hover{
+    background-color: orange;
+}
+.contact{
+    width: 60px;
+    background-color: lightblue;
+    height: 5vh;
+    margin-top: 15vh;
+    margin-left: 10px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.contact:hover{
+    background-color: orange;
+}
+.email{
+    width: 50px;
+    background-color: lightblue;
+    height: 5vh;
+    margin-top: 15vh;
+    margin-left: 10px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.email:hover{
+    background-color: orange;
+}
+.onlineform{
+    width: 100px;
+    background-color: lightblue;
+    height: 5vh;
+    margin-top: 15vh;
+    margin-left: 10px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.onlineform:hover{
+    background-color: orange;
+}
+.faculty{
+    width: 60px;
+    background-color: lightblue;
+    height: 5vh;
+    margin-top: 15vh;
+    margin-left: 10px;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.faculty:hover{
+    background-color: orange;
+}
+.image1{
+    width: 100%;
+    height: 70vh;
+}
+.btn{
+    background-color: lightblue;
+    border-radius: 40px;
+}
+.btn:hover{
+    background-color: orange;
+}
+.got-a-question {
+    background-color: #F2F2F2;
+    min-height: 100px;
+    padding: 25px 0;
+}
+.text-center {
+    text-align: center;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+body {
+    color: #4f4f4f;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-inline{
+    display: flex;
+    justify-content: center;
+}
+.form-group{
+    width: 150px;
+    display: flex;
+}
+ /* for flip cards */
+ .flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color:  dodgerblue;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .flip-card-front{
+    justify-content: center;
+    align-items: center;
+  }
+  .flip-card-back{
+    justify-content: center;
+    align-items: center;
+  }
+  .cardabout{
+    background-color: blueviolet;
+    width: 100%;
+    height: 60vh;
+  }
+  .card{
+    background-color: blueviolet;
+    width: 20%;
+    height: 60vh;
+  }
+  .about{
+    width: 100%;
+    margin-left: 110px;
+    background-color: white;
+  }
+  .principal{
+    width: 100%;
+    height: 140vh;
+    background-color: white;
+  }
+  .voiceofprincipal{
+    width: 40%;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(221, 230, 231);
+    height: 136vh;
+  }
+  .whyforbes{
+    width: 30%;
+    background-color: rgb(221, 230, 231);
+    margin: 10px;
+    border-radius: 10px;
+    height: 60vh;
+  }
+  .newsandinfo{
+    width: 25%;
+    height: 136vh;
+    margin: 10px;
+  }
+  .news{
+    width: 80%;
+    margin: 10px;
+    height: 50vh;
+    border-radius: 10px;
+    background-color: rgb(221, 230, 231);
+  }
+.info{
+    width: 80%;
+    height: 45vh;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(221, 230, 231);
+}
+.visionandmission{
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+    display: flex;
+}
+.visioninnerdiv{
+    width: 40%;
+    height: 20vh;
+    margin: 10px;
+    background-color: rgb(221, 230, 231);
+}
+.goal{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+}
+.mission{
+    width: 50%;
+    height: 20vh;
+    margin: 10px;
+    background-color: rgb(221, 230, 231);
+}
+.goals{
+    width: 50%;
+    margin: 10px;
+    height: 60vh;
+    background-color: white;
+}
+.secondlast{
+    width: 100%;
+    height: 25vh;
+    background-color: lightblue;
+}
+.last{
+    background-color: burlywood;
+    width: 100%;
+    height: 5vh;
+}
